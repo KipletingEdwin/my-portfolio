@@ -28,13 +28,13 @@ function Navbar() {
       </div>
       <div class="social-container">
         <a href="https://twitter.com/carmago_jose_">
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faTwitter}  className="icons" />
         </a>
         <a href="https://twitter.com/carmago_jose_">
-          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faFacebook} className="icons" />
         </a>
         <a href="https://twitter.com/carmago_jose_">
-          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faInstagram} className="icons" />
         </a>
       </div>
     </div>
