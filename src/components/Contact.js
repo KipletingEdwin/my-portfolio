@@ -16,9 +16,12 @@ function Contact() {
             </form>
           </div>
           <div className="section-2">
-          <input type="text" placeholder="Message"></input>
-             </div>
+            <input type="text" placeholder="Message"></input>
+          </div>
         </div>
+      </div>
+      <div>
+        <button>Send</button>
       </div>
     </div>
   );
