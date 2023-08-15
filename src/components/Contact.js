@@ -20,7 +20,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="my-button">
         <button>Send</button>
       </div>
     </div>
