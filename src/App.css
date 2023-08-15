@@ -31,7 +31,7 @@
   padding: 0;
   background-color: rgb(33, 25, 34);
   /* background-color: rgb(10, 24, 46); */
-  height: 2000px;
+  height: 3000px;
 }
 
 .my-navbar {
@@ -102,6 +102,8 @@
   background-color: purple;
 }
 
+/* Intro JS*/
+
 .Intro-Info {
   background-color: red;
   height: 500px;
@@ -115,7 +117,7 @@
 
 .my-picture img{
   height: 500px;
-  margin-left: 40%;
+  margin-left: 0%;
 }
 
 .my-introduction {
@@ -154,10 +156,119 @@
   border: 1px solid black;
 }
 
+/*Skills*/
+
 .skill-set{
+  background-color: yellow;
+  height: 700px;
+  position: relative;
+}
+
+.skill-set h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill-set p{
+  color: #B8B8B8;
+  font-size: 18px;
+}
+
+.item{
+  background-color: #151515;
+  color: white;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Projects */
+
+.projects{
+  /* background-color: orangered; */
+  height: 500px;
+}
+
+.projects h1{
+  text-align: center;
+/* background-color: yellow; */
+  color: white;
+  margin: 5px;
+  /* font-size: larger; */
+}
+
+.projects p{
+  text-align: center;
+  /* background-color: yellow; */
+}
+
+.tabs{
+  /* background-color: green; */
+  margin: 10px;
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+.tabs button{
+  width: 33.3333%;
+  height: 100%;
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Contact me page */
+
+.contact{
   background-color: yellow;
   height: 500px;
 }
+
+.contact h1{
+  /* color: white; */
+  text-align: center;
+  padding-top: 2%;
+}
+
+.contact-image{
+  background-color: purple;
+  height: 84%;
+  width: 50%;
+}
+
+.contact-div{
+  display: flex;
+  background-color: olivedrab;
+  height: 84%;
+
+}
+
+.contact-inputs{
+  background-color: red;
+  height: 84%;
+  width: 50%;
+
+}
+
+.section-1{
+  height: 50%;
+  background-color: rgb(11, 224, 39);
+
+}
+
+.section-1 input{
+  padding: 10px;
+  margin: 5px;
+  width: 40%;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+
+
 
 
 /* font-family: 'Lumanosimo', cursive; */
