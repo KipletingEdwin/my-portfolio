@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{ useState} from "react";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,7 @@ function handleChange(e){
 
 function handleSubmit(e){
   e.preventDefault()
-  fetch("http://localhost:3000",{
+  fetch("http://localhost:3000/users",{
     method: "POST",
     headers: {
       "Content-Type": "application/json"
