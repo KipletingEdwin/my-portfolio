@@ -6,6 +6,7 @@ function Contact() {
     lastname: "",
     email: "",
     phone: "",
+    message: "",
   })
 
 function handleChange(e){
@@ -13,8 +14,19 @@ function handleChange(e){
   console.log(formData);
 }
 
-function handleSubmit(){
-  console.log("Hey")
+function handleSubmit(e){
+  e.preventDefault()
+  fetch("http://localhost:3000",{
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(formData),
+
+  })
+  .then((res) =>res.json())
+  .then((data) =>console.log(data))
+  
 }
 
 

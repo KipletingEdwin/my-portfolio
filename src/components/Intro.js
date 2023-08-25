@@ -10,6 +10,7 @@ function Intro() {
   const period = 2000;
   const [delta, setDelta] = useState(300 - Math.random() * 100);
 
+
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -26,6 +27,7 @@ function Intro() {
     let updatedText = isDeleting
       ? fullText.substring(0, text.length - 1)
       : fullText.substring(0, text.length + 1);
+
 
     setText(updatedText);
 
