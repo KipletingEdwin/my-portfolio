@@ -16,7 +16,7 @@ function handleChange(e){
 
 function handleSubmit(e){
   e.preventDefault()
-  fetch("http://localhost:3000/users",{
+  fetch("",{
     method: "POST",
     headers: {
       "Content-Type": "application/json"
