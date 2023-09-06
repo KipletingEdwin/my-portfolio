@@ -111,16 +111,21 @@
   background-color: red;
   height: 500px;
   display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
 .my-picture {
-  background-color: purple;
-  width: 36%;
+  /* background-color: purple; */
+  width: 35%;
 }
 
 .my-picture img{
   height: 500px;
-  margin-left: 0%;
+  width: 100%;
+  border-radius: 50%;
+  /* margin-left: 0%; */
 }
 
 .my-introduction {
