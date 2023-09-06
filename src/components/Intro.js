@@ -54,11 +54,11 @@ function Intro() {
       <div className="my-introduction">
         <button> Welcome to my Portfolio</button>
         <h3>HELLO I'M </h3>
-        <h1> Kipleting Edwin!</h1>
-        <h2>
+        <h2> Kipleting Edwin!</h2>
+        <h3>
           {" "}
           I am a <span>{text}</span>
-        </h2>
+        </h3>
       </div>
     </div>
   );
