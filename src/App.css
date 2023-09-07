@@ -124,8 +124,7 @@
 }
 
 .my-picture img{
-  /* height: 500px; */
-  height: auto;
+  height: 500px;
   /* width: 100%; */
   border-radius: 60%;
   /* margin-left: 0%; */
