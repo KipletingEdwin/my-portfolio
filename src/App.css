@@ -1,5 +1,5 @@
-/* .App {
-  text-align: center;
+/* *{
+  background-color: rgba(22, 5, 5, 0.776);
 } */
 
 .App-logo {
@@ -109,7 +109,8 @@
 /* Intro JS*/
 
 .Intro-Info {
-  background-color: rgba(22, 5, 5, 0.776);
+  /* background-color: rgba(22, 5, 5, 0.776); */
+  background-color: yellow;
   height: 500px;
   display: flex;
   padding: 0px;
@@ -123,9 +124,10 @@
 }
 
 .my-picture img{
-  height: 500px;
-  width: 100%;
-  border-radius: 50%;
+  /* height: 500px; */
+  height: auto;
+  /* width: 100%; */
+  border-radius: 60%;
   /* margin-left: 0%; */
 }
 
@@ -171,12 +173,15 @@
 .skill-set{
   background-color: yellow;
   height: 700px;
-  position: relative;
+  /* position: relative; */
+  padding: 0px;
+  margin: 0px;
 }
 
 .skill-set h2{
   font-size: 45px;
   font-weight: 700;
+  text-align: center;
 }
 
 .skill-set p{
